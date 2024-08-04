@@ -28263,7 +28263,7 @@ speechSynthesis.getVoices();
     // #region | App: Local Avatar Favorites
 
     $app.methods.isLocalUserVrcplusSupporter = function () {
-        return API.currentUser.$isVRCPlus;
+        return true;
     };
 
     $app.data.localAvatarFavoriteGroups = [];
