@@ -19574,7 +19574,7 @@ console.log(`isLinux: ${LINUX}`);
     // #region | App: Local Avatar Favorites
 
     $app.methods.isLocalUserVrcplusSupporter = function () {
-        return API.currentUser.$isVRCPlus;
+        return true;
     };
 
     $app.data.localAvatarFavoriteGroups = [];
